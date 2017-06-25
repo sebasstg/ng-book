@@ -1,11 +1,14 @@
+Iniciar
 git init
 git add Readme.txt
 git status
 git commit -m “Add test.txt”
 
+remoto
 
 git remote add origin https://github.com/sebasstg/ng-book.git
 git push -u origin master 
 git remote -v
 
+push
 git push
