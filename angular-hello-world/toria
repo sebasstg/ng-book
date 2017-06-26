@@ -1,0 +1,15 @@
+components
+The selector property here indicates which DOM element this component is going to use. In
+this case, any <app-hello-world></app-hello-world> tags that appear within a template will be
+compiled using the HelloWorldComponent class and get any attached functionality.
+
+3 @Component({
+4 selector: 'app-hello-world', -->using a <app-hello-world>
+5 templateUrl: './hello-world.component.html', -->template
+6 styleUrls: ['./hello-world.component.css']
+7 })
+
+template
+We can define templates two ways, either by using the template key in our @Component object or
+by specifying a templateUrl.
+
